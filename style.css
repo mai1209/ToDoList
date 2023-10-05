@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(116, 35, 98, 0.342);
+}
+
+.title{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.addForm {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+ 
+}
+
+.btn1, 
+.btn2 {
+  background-color: rgba(220, 20, 60, 0.658);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(59, 59, 59, 0.589);
+  color: aliceblue;
+}
+
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.inputDo{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(59, 59, 59, 0.589);
+    padding: 5px;
+    
+}
+
+
+.toDo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    color: rgba(220, 20, 60, 0.658);
+    
+    
+}
+
+.caja{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 8px;
+  max-width:  450px;
+  margin: auto;
+}
+
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px 2px   rgba(255, 0, 128, 0.247);
+}
+
+img{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
